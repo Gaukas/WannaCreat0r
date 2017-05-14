@@ -1,0 +1,9 @@
+X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\bin\Debug\Wanna Creat0r.exe
+X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\bin\Debug\Wanna Creat0r.pdb
+X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.csprojResolveAssemblyReference.cache
+X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna_Creat0r.Form1.resources
+X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna_Creat0r.Form2.resources
+X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna_Creat0r.Properties.Resources.resources
+X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.csproj.GenerateResource.Cache
+X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.exe
+X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.pdb
