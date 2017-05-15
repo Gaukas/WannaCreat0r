@@ -16,6 +16,7 @@ namespace Wanna_Creat0r
     {
         string picture2path = "";
         string picture1path = "";
+        Color bgColor = Color.Red;
 
         public Form1()
         {
@@ -82,7 +83,7 @@ namespace Wanna_Creat0r
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(picture1path,picture2path);
+            Form2 form2 = new Form2(picture1path,picture2path,bgColor);
             //Set
             ((Form2)(form2)).label3.Text = this.label3.Text;
             //Finish
@@ -261,8 +262,8 @@ namespace Wanna_Creat0r
         private void buttonSetBg_Click(object sender, EventArgs e)
         {
             colorDialogBg.ShowDialog();
-            Color mBgColor = colorDialogBg.Color;
-            this.BackColor = mBgColor;
+            bgColor = colorDialogBg.Color;
+            this.BackColor = bgColor;
         }
     }
 }

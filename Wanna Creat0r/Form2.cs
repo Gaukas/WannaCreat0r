@@ -13,7 +13,7 @@ namespace Wanna_Creat0r
 {
     public partial class Form2 : Form
     {
-        public Form2(string p1p,string p2p)
+        public Form2(string p1p,string p2p,Color bgColor)
         {
             InitializeComponent();
             if (p1p != "")
@@ -34,6 +34,8 @@ namespace Wanna_Creat0r
                 fileStream.Close();
                 pictureBox2.Image = Image.FromStream(new MemoryStream(fileBytes));
             }
+            this.BackColor = bgColor;
+            textBox1.BackColor = bgColor;
         }
 
         private void Form2_Load(object sender, EventArgs e)
