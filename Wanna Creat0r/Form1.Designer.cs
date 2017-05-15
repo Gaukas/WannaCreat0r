@@ -61,6 +61,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.buttonSetBg = new System.Windows.Forms.Button();
             this.colorDialogBg = new System.Windows.Forms.ColorDialog();
+            this.buttonSetTitle = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -443,14 +444,25 @@
             // 
             // buttonSetBg
             // 
-            this.buttonSetBg.Location = new System.Drawing.Point(13, 592);
+            this.buttonSetBg.Location = new System.Drawing.Point(16, 592);
             this.buttonSetBg.Margin = new System.Windows.Forms.Padding(4);
             this.buttonSetBg.Name = "buttonSetBg";
             this.buttonSetBg.Size = new System.Drawing.Size(183, 29);
             this.buttonSetBg.TabIndex = 35;
-            this.buttonSetBg.Text = "Set BackGround Color";
+            this.buttonSetBg.Text = "Set BackColor";
             this.buttonSetBg.UseVisualStyleBackColor = true;
             this.buttonSetBg.Click += new System.EventHandler(this.buttonSetBg_Click);
+            // 
+            // buttonSetTitle
+            // 
+            this.buttonSetTitle.Location = new System.Drawing.Point(207, 592);
+            this.buttonSetTitle.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonSetTitle.Name = "buttonSetTitle";
+            this.buttonSetTitle.Size = new System.Drawing.Size(136, 29);
+            this.buttonSetTitle.TabIndex = 36;
+            this.buttonSetTitle.Text = "Set Title";
+            this.buttonSetTitle.UseVisualStyleBackColor = true;
+            this.buttonSetTitle.Click += new System.EventHandler(this.buttonSetTitle_Click);
             // 
             // Form1
             // 
@@ -458,6 +470,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Firebrick;
             this.ClientSize = new System.Drawing.Size(1219, 795);
+            this.Controls.Add(this.buttonSetTitle);
             this.Controls.Add(this.buttonSetBg);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button7);
@@ -529,6 +542,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Button buttonSetBg;
         private System.Windows.Forms.ColorDialog colorDialogBg;
+        private System.Windows.Forms.Button buttonSetTitle;
     }
 }
 

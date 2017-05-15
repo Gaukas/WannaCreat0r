@@ -13,7 +13,7 @@ namespace Wanna_Creat0r
 {
     public partial class Form2 : Form
     {
-        public Form2(string p1p,string p2p,Color bgColor)
+        public Form2(string p1p,string p2p,Color bgColor,string fromTitle)
         {
             InitializeComponent();
             if (p1p != "")
@@ -36,6 +36,12 @@ namespace Wanna_Creat0r
             }
             this.BackColor = bgColor;
             textBox1.BackColor = bgColor;
+
+            if (fromTitle != "")
+            {
+                this.Text = fromTitle;
+            }
+            
         }
 
         private void Form2_Load(object sender, EventArgs e)
