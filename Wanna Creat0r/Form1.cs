@@ -16,6 +16,8 @@ namespace Wanna_Creat0r
     {
         string picture2path = "";
         string picture1path = "";
+        string titleStr= "";
+        Color bgColor = Color.Firebrick;
 
         public Form1()
         {
@@ -82,7 +84,7 @@ namespace Wanna_Creat0r
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2(picture1path,picture2path);
+            Form2 form2 = new Form2(picture1path,picture2path,bgColor,Text);
             //Set
             ((Form2)(form2)).label3.Text = this.label3.Text;
             //Finish
@@ -251,6 +253,27 @@ namespace Wanna_Creat0r
                 str = Interaction.InputBox("Please input the content to replace the \"" + label8.Text + "\"", "Input the content", label8.Text, -1, -1);
             }
             label8.Text = str;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSetBg_Click(object sender, EventArgs e)
+        {
+            colorDialogBg.ShowDialog();
+            bgColor = colorDialogBg.Color;
+            this.BackColor = bgColor;
+        }
+
+        private void buttonSetTitle_Click(object sender, EventArgs e)
+        {
+            while (titleStr == "")
+            {
+                titleStr = Interaction.InputBox("Please input the content to replace the Title ","Input the content", this.Text, -1, -1);
+            }
+            this.Text = titleStr;
         }
     }
 }
