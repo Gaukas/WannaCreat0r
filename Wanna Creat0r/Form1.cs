@@ -252,5 +252,17 @@ namespace Wanna_Creat0r
             }
             label8.Text = str;
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonSetBg_Click(object sender, EventArgs e)
+        {
+            colorDialogBg.ShowDialog();
+            Color mBgColor = colorDialogBg.Color;
+            this.BackColor = mBgColor;
+        }
     }
 }

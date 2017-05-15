@@ -7,3 +7,12 @@ X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna_Creat0r.Propertie
 X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.csproj.GenerateResource.Cache
 X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.exe
 X:\Projects\Fucker\Wanna Creat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.pdb
+C:\Users\81977\Desktop\WorkSpace\WannaCreat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.exe
+C:\Users\81977\Desktop\WorkSpace\WannaCreat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.pdb
+C:\Users\81977\Desktop\WorkSpace\WannaCreat0r\Wanna Creat0r\bin\Debug\Wanna Creat0r.exe
+C:\Users\81977\Desktop\WorkSpace\WannaCreat0r\Wanna Creat0r\bin\Debug\Wanna Creat0r.pdb
+C:\Users\81977\Desktop\WorkSpace\WannaCreat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.csprojResolveAssemblyReference.cache
+C:\Users\81977\Desktop\WorkSpace\WannaCreat0r\Wanna Creat0r\obj\Debug\Wanna_Creat0r.Form1.resources
+C:\Users\81977\Desktop\WorkSpace\WannaCreat0r\Wanna Creat0r\obj\Debug\Wanna_Creat0r.Form2.resources
+C:\Users\81977\Desktop\WorkSpace\WannaCreat0r\Wanna Creat0r\obj\Debug\Wanna_Creat0r.Properties.Resources.resources
+C:\Users\81977\Desktop\WorkSpace\WannaCreat0r\Wanna Creat0r\obj\Debug\Wanna Creat0r.csproj.GenerateResource.Cache
